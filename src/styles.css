@@ -1,0 +1,147 @@
+.top-bar{
+    width: 100%;
+    background-image: linear-gradient(to right, #5F3473 , #8723b6);
+    height: 80px;
+    padding: 0;
+    display: flex;
+}
+
+.titulo{
+    width: 60%;
+    padding-top: 25px;
+    padding-left: 25px;
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 27px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+}
+
+.navigation-buttons{
+    margin-top: 20px;
+}
+
+.navigation-buttons > button{
+    border-radius: 20px;
+    background-color: transparent;
+    width: 150px;
+    color: white;
+    border: 0;
+}
+
+.navigation-buttons >button:hover{
+    border: 2px solid rgb(75, 0, 75);
+}
+
+body{
+    margin: 0 !important;
+}
+
+.content{
+    width: auto;
+    background-color: #e4e4e4;
+    margin: 1.5vw;
+    border-radius: 20px;
+    padding: 1em;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.postagem-card{
+    width: 13em;
+    height: 23em;
+    background-color: red;
+    border-radius: 20px;
+    flex: 0 0 10%;
+}
+
+.postagensTable > thead > tr > th:nth-child(1),
+.postagensTable > tbody > tr > td:nth-child(1){
+    width: 5%;
+}
+
+.postagensTable > thead > tr > th:nth-child(2),
+.postagensTable > tbody > tr > td:nth-child(2){
+    width: 5%;
+}
+
+.postagensTable > thead > tr > th:nth-child(3),
+.postagensTable > tbody > tr > td:nth-child(3){
+    width: 10%;
+}
+
+.postagensTable > thead > tr > th:nth-child(4),
+.postagensTable > tbody > tr > td:nth-child(4){
+    width: 15%;
+}
+
+.postagensTable{
+    width: 100%;
+}
+
+.albunsTable > thead > tr > th:nth-child(1),
+.albunsTable > tbody > tr > td:nth-child(1){
+    width: 5%;
+}
+
+.albunsTable > thead > tr > th:nth-child(2),
+.albunsTable > tbody > tr > td:nth-child(2){
+    width: 5%;
+}
+
+.albunsTable > thead > tr > th:nth-child(3),
+.albunsTable > tbody > tr > td:nth-child(3){
+    width: 10%;
+}
+
+.albunsTable{
+    width: 100%;
+}
+
+.todosTable > thead > tr > th:nth-child(1),
+.todosTable > tbody > tr > td:nth-child(1){
+    width: 5%;
+}
+
+.todosTable > thead > tr > th:nth-child(2),
+.todosTable > tbody > tr > td:nth-child(2){
+    width: 5%;
+}
+
+.todosTable > thead > tr > th:nth-child(3),
+.todosTable > tbody > tr > td:nth-child(3){
+    width: 10%;
+}
+
+.todosTable > thead > tr > th:nth-child(4),
+.todosTable > tbody > tr > td:nth-child(4){
+    width: 15%;
+}
+
+.todosTable{
+    width: 100%;
+}
+
+
+.content-title{
+    position: relative;
+    background-color: #fff0f0;
+    height: 40px;
+    top: -35px;
+    left: 20px;
+    text-align: center;
+    border-radius: 20px;
+    border: solid 1px #e4e4e4;
+}
+
+.content-title h2 {
+    margin: auto;
+    padding: 6px;
+    
+}
